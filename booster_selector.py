@@ -19,7 +19,7 @@ try:
 except ImportError:
     WIN = False
 
-BASE_PATH = path.normpath('/usr/local/sbin/matw_scripts/booster_selector')
+BASE_PATH = path.normpath('/usr/local/sbin/company_scripts/booster_selector')
 IP_FILE = path.join(BASE_PATH, 'local_ip.txt')
 MAP_PATH = path.join(BASE_PATH, 'booster_map.json')
 FWCLD_PLIST = '/usr/local/etc/fwcld.plist'
@@ -30,7 +30,7 @@ logging.basicConfig(filename='/var/log/booster_selector.log',
 
 def get_ip():
     """Return local IP address."""
-    server = 'filewave-admin.matw.matthewsintl.com'
+    server = 'filewave.server.com'
     port = 20015
     try:
         filewave_socket = create_connection((server, port))
