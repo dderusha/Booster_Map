@@ -4,5 +4,6 @@ Dynamically Sets booster servers according to workstation IP.  Traveling users g
 # Setup
 
 # LaunchDameon
+![LD Fileset cap](/booster_selector/BoosterDameonFileset.png?raw=true)
 
 
